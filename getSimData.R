@@ -41,8 +41,8 @@ getSimData<- function(N,R2)
             return(list(X,oIdx,pIdx))}
 
 
-XX<-getSimData(10,R2=c(0.2,0.4,0.6))
-cor(X[[1]][2,1:20],X[[1]][2,21:40])
+X<-getSimData(200,R2=c(0.2,0.4,0.6))
+cor(X[[1]][2,1:200],X[[1]][2,21:400])
 
 
 

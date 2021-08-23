@@ -64,3 +64,4 @@ print(diff)
       }  
       print(itern)
       return(list(wetV,Cost))}
+# improve algo
